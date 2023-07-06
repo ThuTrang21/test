@@ -1,0 +1,184 @@
+*{
+    padding:0;
+}
+.header1{
+    display:flex;
+    background-color:chocolate;
+    justify-content:space-evenly;
+    padding-left:10px
+}
+.header1 .h1{
+    flex:0%
+}
+.header1 .chu{
+    display:block;
+    flex: 52%
+}
+.chu >h1{
+    color: #0033CC
+}
+.chu >p{
+    text-align: center;
+    color:black;
+} 
+.header2{
+    height: 27px;
+    display: flex;
+    background-color: #33CCFF;
+}
+.header2 .co{
+    flex:103px;
+}
+.header2 .co img{
+height:15px;
+padding-top:6px;
+padding-left:10px;
+padding-bottom: 10px;
+
+}
+.header2 .menun ul{
+    
+    list-style-type:none;
+    margin:0px
+}
+.menun ul li{
+    float:left;
+    line-height: 27px;
+    padding-right:39px;
+    padding-left:39px;
+    border-right:1px solid black
+}
+.menun ul li a{
+    text-decoration: none;
+    color:white;
+}
+.menun ul li:hover a{
+color:yellow;
+}
+.header2 .timkiem{
+    margin-top: 5px;
+    margin-right:10px;
+}
+.menu{
+    flex:21%;
+
+}
+.bottom{
+    display: flex;
+}
+.content{
+    flex:79%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.menu h3{
+    background-color: #0066FF;
+    padding:10px;
+    padding-left:30px;
+    margin:0px;
+    color:white
+}
+.menu >ul{
+    background-color: #33FFFF;
+    margin:0px;
+    
+    list-style-type: none;
+}
+.menu >ul >li{
+    padding:10px;
+    font-size:20px;
+    color:white;
+    border:1px solid white
+}
+.menu >ul >li >p{
+    float:right;
+    margin:0px;
+    padding-top:3px;
+    font-weight:bold;
+    font-size:14px;
+    color:white
+}
+.menu >ul>li{
+    position:relative;
+}
+.menu >ul>li>.menu2{
+    position: absolute;
+    list-style-type: none;
+}
+.menu2 {
+background-color: blue;
+width:200px;
+left:238px;
+top:0px;
+display: none;
+}
+.menu2 li{
+    padding:10px;
+    font-size:18px;
+    border:1px solid white
+}
+.menu2 li a{
+    color:white;
+    text-decoration: none;
+}
+.menu >ul>li:hover>.menu2{
+    display: block;
+}
+.content .trai{
+    flex:69%;
+    border-bottom:1px solid blue;
+}
+.phai{
+    padding-top:5px;
+    border-bottom:1px solid blue;
+}
+.phai a{
+    color:black;
+}
+.trai1{
+    display: inline;
+}
+.trai1 img{
+    height: 170px;
+}
+.duoi{
+    display: flex;
+}
+.phai1{
+    display: block;
+    padding-left: 50px;
+    
+}
+.nd{
+    padding-right:100px
+}
+.tr{
+    display: flex;
+}
+.tr .nd{
+    justify-content: space-evenly;
+    padding-left:10px
+}
+.d{
+    display: flex;
+}
+.nd img{
+    width:170px;
+}
+.nd img:hover{
+    width:200px;
+}
+.nd >p{
+    text-align: center;
+}
+.nd >p:hover{
+    color:red;
+}
+.nd .c2{
+    color:#33CCFF;
+    text-align: center;
+}
+.nd .c2:hover{
+    color:black;
+    background-color: green;
+}

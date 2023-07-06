@@ -1,0 +1,98 @@
+*{
+    padding:0
+}
+header{
+    display:flex;
+    background-color:brown
+}
+.cty h1{
+    color:blue;
+}
+.cty h2{
+    color:red;
+}
+.cty h1:hover{
+    color:red;
+}
+.cty h2:hover{
+    color:green;
+}
+.sdt pre{
+    color:red;
+}
+.sdt{
+    border: 1px solid rgb(125, 125, 240);
+    padding:10px;
+}
+.menu1{
+    display:flex;
+    background-color: black;
+}
+.menu1 > li{
+    list-style-type: none;
+    padding:10px;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    color:white;
+    position: relative;
+    padding-left:26px;
+    padding-right:26px
+}
+.menu1 > li:hover{
+    background-color: #FF3399;
+    color: black;
+}
+.menu1 > li .menu2{
+    position: absolute;
+}
+.menu2{
+    background-color: white;
+    list-style-type: none;
+    top:50px;
+    left:0px;
+    display: none;
+}
+.menu1 >li:hover .menu2{
+    display: block;
+}
+.menu2 li a{
+    color:black;
+    text-decoration: none;
+}
+content{
+    display: flex;
+    flex-wrap: wrap;
+}
+content .chu1{
+    margin-right:900px;
+    background-color: #CCCCCC;
+    color:black;
+}
+
+content .nd{
+display:block;
+}
+.nd .ndn1{
+    display: flex;
+}
+.ndn1 .anh1 .giac{
+    color:black;
+}
+.gia{
+    color:red;
+}
+.nn{
+    display: flex;
+    
+}
+.nn .pt{
+    margin-left:20px;
+    background-color: #00CC33;
+    color:white
+}
+.anh1 >p:hover{
+    color:red;
+}
+select option[value="1"]:hover{
+    background-color: #0099FF;
+}

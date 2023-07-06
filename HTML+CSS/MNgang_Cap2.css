@@ -1,0 +1,59 @@
+.menu ul.c1{
+    list-style-type: none;
+    
+}
+.menu >ul.c1 >li{
+    background-color:rgb(221, 48, 48);
+    padding: 16px 30px;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+}
+.menu li{
+    float:left;
+}
+.menu >ul.c1>li:hover{
+    background-color: #1295D5;
+}
+.menu >ul.c1>li:hover>a{
+    color: #FFFF33;
+
+}
+
+/* Menu cấp 2 */
+li ul.c2{
+    position:absolute;
+    top: 50px;
+    left: 0px;
+    background-color: white;
+    
+    list-style-type: none;
+    display:none
+}
+li ul.c2 li a{
+    color:black;
+}
+li ul.c2 li{
+    line-height:33px;
+    padding:5px 20px;
+    width:250px;
+    
+}
+ul.c2{
+    width:290px;
+    padding:0px;
+    border-color:black;
+    border-width:1px;
+    border-style:groove;
+}
+ul.c1 li:hover ul.c2{
+    display:block;
+} 
+ul.c2 li:hover a{
+    color:blueviolet
+}
+ul.c2 li:hover{
+    background-color: burlywood;
+}
