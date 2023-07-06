@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="0">
+        <tr>
+            <th>Nhập n :</th>
+            <th><input type="text" id="n"></th>
+        </tr>
+        <tr>
+            <th>n có phải số chính phương không:</th>
+            <th><input type="text" id="tong"></th>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <input type="button" value="kiểm tra" onclick="tinh();">
+                <input type="reset" value="Hủy bỏ"></th>
+        </tr>
+    </table>
+</form>
+    <script>
+        function ktra(n){
+            var i=parseInt(Math.sqrt(n));
+            if(i*i==n) return true;
+            return false;
+        }
+        function tinh(){
+            var n=parseInt(window.document.getElementById("n").value);
+            if(ktra(n)) window.document.getElementById("tong").value="n có là số chính phương";
+            else window.document.getElementById("tong").value="n không là số chính phương";
+        }
+    </script>
+</body>
+</html>
